@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="قلعة التقنيات - موقع تقني متقدم يعرض تطبيقات أندرويد معدلة وخطوط تصميم حصرية">
+    <meta name="keywords" content="تطبيقات, أندرويد, خطوط, تصميم, تقنيات">
+    <meta name="author" content="سيف علي">
+    <title>قلعة التقنيات ♜︎ - موقع تقني متقدم</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%2300d4ff'>♜</text></svg>">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">♜︎</span>
+                <span class="logo-text">قلعة التقنيات</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#channels" class="nav-link">القنوات</a></li>
+                <li><a href="#about" class="nav-link">عننا</a></li>
+                <li><a href="#contact" class="nav-link">التواصل</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">قلعة التقنيات</h1>
+                <p class="hero-subtitle">منصة تقنية متقدمة لأحدث التطبيقات والخطوط</p>
+                <p class="hero-description">اكتشف عالماً من التطبيقات المعدلة والخطوط الحصرية المصممة خصيصاً لك</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('channels')">استكشف القنوات</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">تواصل معنا</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon">📱</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">✨</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">🎨</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Channels Section -->
+    <section id="channels" class="channels">
+        <div class="section-header">
+            <h2>قنواتنا المتخصصة</h2>
+            <p>اكتشف محتوى تقني متميز وحصري</p>
+        </div>
+
+        <div class="channels-grid">
+            <!-- Channel 1 -->
+            <div class="channel-card">
+                <div class="channel-header">
+                    <div class="channel-icon apps-icon">📱</div>
+                    <h3>قلعة التقنيات ♜︎ تطبيقات</h3>
+                </div>
+                <div class="channel-body">
+                    <p class="channel-description">
+                        قناة متخصصة في نشر تطبيقات أندرويد معدلة وحصرية مع نصائح وشروحات تقنية متقدمة للمجتمع الشبابي والطلابي
+                    </p>
+                    <div class="channel-features">
+                        <span class="feature-tag">تطبيقات معدلة</span>
+                        <span class="feature-tag">نصائح تقنية</span>
+                        <span class="feature-tag">شروحات</span>
+                    </div>
+                </div>
+                <div class="channel-footer">
+                    <a href="https://t.me/TechCsl" target="_blank" class="channel-link">
+                        <span>زيارة القناة</span>
+                        <span class="link-icon">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Channel 2 -->
+            <div class="channel-card">
+                <div class="channel-header">
+                    <div class="channel-icon fonts-icon">🎨</div>
+                    <h3>خطوط تكنو</h3>
+                </div>
+                <div class="channel-body">
+                    <p class="channel-description">
+                        متخصصة في نشر أفضل الخطوط الحديثة والمتميزة للتصميم والتطبيقات بجودة عالية وتنوع كبير
+                    </p>
+                    <div class="channel-features">
+                        <span class="feature-tag">خطوط تصميم</span>
+                        <span class="feature-tag">خطوط تطبيقات</span>
+                        <span class="feature-tag">موارد</span>
+                    </div>
+                </div>
+                <div class="channel-footer">
+                    <a href="https://t.me/Fontone" target="_blank" class="channel-link">
+                        <span>زيارة القناة</span>
+                        <span class="link-icon">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>عن قلعة التقنيات</h2>
+            <p>منصة تقنية متطورة وفريدة</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>مرحباً بك في قلعة التقنيات</h3>
+                <p>
+                    نحن منصة تقنية متخصصة وفريدة في تقديم أفضل التطبيقات المعدلة والخطوط الحديثة للمجتمع الشبابي والطلابي. 
+                    نسعى جاهدين لتوفير محتوى تقني عالي الجودة يساعدك على البقاء في طليعة التطور التكنولوجي والتصميمي.
+                </p>
+                <p>
+                    من خلال قنواتنا المتخصصة، نقدم لك تطبيقات حصرية معدلة وخطوط فريدة لا تجدها في أي مكان آخر، 
+                    مع شروحات ونصائح تقنية تساعدك على الاستفادة القصوى من كل ما نقدمه.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">قنوات متخصصة</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">تطبيق معدل</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">خط حصري</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-header">
+            <h2>مميزاتنا</h2>
+            <p>لماذا تختار قلعة التقنيات</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <h4>سرعة وكفاءة</h4>
+                <p>محتوى محدث بشكل مستمر وسريع</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔒</div>
+                <h4>أمان وموثوقية</h4>
+                <p>تطبيقات آمنة وموثوقة 100%</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🎯</div>
+                <h4>محتوى مختار</h4>
+                <p>أفضل ما في عالم التقنية</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💎</div>
+                <h4>جودة عالية</h4>
+                <p>معايير عالية جداً في كل شيء</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>تواصل معنا</h2>
+            <p>تابعنا على وسائل التواصل الاجتماعي</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://t.me/WWGTR" class="social-link telegram" title="تلجرام">
+                <span class="social-icon">📱</span>
+                <span class="social-text">تلجرام الشخصي</span>
+            </a>
+            <a href="https://instagram.com/ni_7u" class="social-link instagram" title="إنستجرام">
+                <span class="social-icon">📸</span>
+                <span class="social-text">إنستجرام</span>
+            </a>
+            <a href="https://t.me/TechCsl" class="social-link tech-channel" title="قناة التقنيات">
+                <span class="social-icon">⚙️</span>
+                <span class="social-text">قناة التقنيات</span>
+            </a>
+            <a href="https://t.me/Fontone" class="social-link fonts-channel" title="قناة الخطوط">
+                <span class="social-icon">✨</span>
+                <span class="social-text">قناة الخطوط</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">تم تصميم هذا الموقع وتطويره بواسطة <strong>سيف علي</strong></p>
+            <p class="footer-year">&copy; 2025 قلعة التقنيات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
